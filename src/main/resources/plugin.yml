@@ -1,0 +1,4 @@
+name: BombArrow
+version: @version@
+main: com.github.chaosindustory.bombarrow.BombArrow
+api-version: 1.15
