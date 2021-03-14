@@ -11,7 +11,7 @@ public class Arrow implements Listener {
     public void ArrowMethod(ProjectileHitEvent event){
         if(event.getEntity().getType().toString().equalsIgnoreCase("SPECTRAL_ARROW")){
             Entity entity = event.getEntity();
-            entity.getWorld().createExplosion(entity.getLocation(),4,false,false);
+            entity.getWorld().createExplosion(entity.getLocation(),3,false,false);
         }
     }
 }
