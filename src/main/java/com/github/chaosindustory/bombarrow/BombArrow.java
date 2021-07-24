@@ -9,7 +9,6 @@ public final class BombArrow extends JavaPlugin {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new Arrow(), this);
         Bukkit.getLogger().info("BarbedWire becomes valid!");
-
     }
 
     @Override
